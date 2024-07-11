@@ -9,21 +9,21 @@ const Syllabus = () => {
             <div className='flex flex-col mb-3'>
               <span className='text-slate-500 mb-3' >Html tools,Forms, History</span>
               
-              <ProgressBar  percentage={80} outColor='blue-100' inColor='blue-500' />
+              <ProgressBar  percentage={80} outColor='bg-blue-100' inColor='bg-blue-500' />
              
             
             </div>
             <div className='flex flex-col mb-3'>
               <span className='text-slate-500 mb-3' >Tag & References in HTML</span>
-              <ProgressBar  percentage={60} outColor='orange-100' inColor='orange-500' />
+              <ProgressBar  percentage={60} outColor='bg-orange-100' inColor='bg-orange-500' />
             </div>
             <div className='flex flex-col mb-3'>
               <span className='text-slate-500 mb-3' >Tables and References in HTML</span>
-              <ProgressBar  percentage={24} outColor='red-100' inColor='red-500' />
+              <ProgressBar  percentage={24} outColor='bg-red-100' inColor='bg-red-500' />
             </div>
             <div className='flex flex-col mb-3'>
               <span className='text-slate-500 mb-3' >Table and CSS basic</span>
-              <ProgressBar  percentage={96} outColor='green-100' inColor='green-500' />
+              <ProgressBar  percentage={96} outColor='bg-green-100' inColor='bg-green-500' />
             </div>
           
 
